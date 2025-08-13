@@ -18,7 +18,7 @@ export default function FiltersBar() {
     const debouncedSetSearch = useMemo(() =>
         debounce((value: string) => {
             setSearchText(value);
-        }, 500),
+        }, 300),
         [setSearchText]
     );
 
