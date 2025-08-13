@@ -6,7 +6,7 @@ import useFiltersStore from './store/useFiltersStore';
 import type { Phrase } from '../../types/Phrase';
 import FiltersBar from './components/FiltersBar';
 import { useMemo } from 'react';
-import Card from '../../components/CardPhrase';
+import Card from './components/CardPhrase';
 import EmptyState from './components/EmptyState';
 import ActionsBar from './components/ActionsBar';
 

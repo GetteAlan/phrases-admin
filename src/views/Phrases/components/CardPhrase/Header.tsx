@@ -2,7 +2,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import IconButton from '@mui/material/IconButton';
 
 import { Header } from './Styles';
-import usePhrasesStore from '../../views/Phrases/store/usePhrasesStore';
+import usePhrasesStore from '../../store/usePhrasesStore';
 import type { FC } from 'react';
 import { Tooltip } from '@mui/material';
 
